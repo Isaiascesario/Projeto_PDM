@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaPerfil"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="396dp"
+        tools:context=".AdotarGato" />
+    <Button
+        android:id="@+id/adotarGatosBurron"
+        android:onClick="adotarGatosFinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/buttonLogar"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/adotar"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="163dp"
+        android:src="@drawable/adotargato" />
+
+
+</LinearLayout>

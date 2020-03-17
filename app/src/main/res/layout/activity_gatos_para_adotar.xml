@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GatosParaAdotar"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/gatoprofile" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="@string/caracteristicas"
+        />
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Gato cinza meio burro vive Correndo atras de um rato e nunca pega, o tal do mongolão"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_gravity="bottom"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_gravity="bottom"
+        />
+
+    <Button
+        android:id="@+id/ligarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/buttonLogar"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/ligar" />
+
+</LinearLayout>

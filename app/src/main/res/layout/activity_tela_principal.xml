@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaPrincipal"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    >
+
+    <Button
+        android:id="@+id/perfilButton"
+        android:onClick="irParaPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/botton_perfil"
+        android:text="@string/verperfil"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_gravity="bottom"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_gravity="bottom"
+        />
+    <Button
+        android:id="@+id/adotarButton"
+        android:onClick="adotarGatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        android:padding="12dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/buttonLogar"
+        android:background="#FFFFFF"
+        android:text="@string/adotar"
+        />
+
+    <Button
+        android:id="@+id/cadastroAdocaoButton"
+        android:onClick="doarGatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/buttonLogar"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/adocao" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/adotar" />
+
+</LinearLayout>

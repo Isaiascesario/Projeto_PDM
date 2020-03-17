@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imagemEditarImagemView"
+        android:layout_width="203dp"
+        android:layout_height="174dp"
+        android:layout_gravity="center"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:src="@drawable/avatar" />
+
+    <Button
+        android:id="@+id/imgEditarPerfilButton"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_camera"
+        android:layout_gravity="center"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:onClick="editarImagem"
+        />
+
+    <EditText
+        android:id="@+id/emailEditarEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:hint="@string/emailHint"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/usuarioEditarEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:hint="@string/usuarioHint"
+        android:inputType="text"
+        />
+
+
+    <Button
+        android:id="@+id/editarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/buttonLogar"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:onClick="editarPerfilFinal"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:padding="12dp"
+        android:text="@string/editarPerfil" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:src="@drawable/cadastro_back" />
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="236dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/cat2" />
+
+    <EditText
+        android:id="@+id/loginEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:hint="@string/emailLogarHint"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/senhaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:hint="@string/senhaHint"
+        android:inputType="textPassword"
+        />
+
+    <CheckBox
+        android:id="@+id/lembraCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#9E9E9E"
+        android:gravity="center"
+        android:text="@string/LembrarEmail" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:padding="12dp"
+        android:gravity="center"
+        android:text="@string/loginButton"
+        android:textColor="#FFFFFF"
+        android:onClick="efetuarLogin"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:backgroundTint="@color/buttonLogar"
+        />
+    <Button
+        android:id="@+id/cadastroButton"
+        android:onClick="cadastrarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:text="@string/cadastroButton"
+        android:textColor="#80DEEA"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:backgroundTint="@android:color/white"
+        android:background="@drawable/cadastro_button"
+        />
+
+</LinearLayout>

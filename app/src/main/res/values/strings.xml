@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Adoção de Gatinhos</string>
+    <string name="cadastroButton">Cadastrar-se</string>
+    <string name="loginButton">Logar</string>
+    <string name="emailLogarHint">E-mail</string>
+    <string name="senhaHint">Senha</string>
+    <string name="efetuarCadastroButton">Finalizar Cadastro</string>
+    <string name="emailHint">E-mail</string>
+    <string name="usuarioHint">Nome de Usuario</string>
+    <string name="senhaCadastroHint">Senha</string>
+    <string name="confirmarSenhaHint">Confirme a Senha</string>
+    <string name="digiteUmaSenha">Digite Uma Senha</string>
+    <string name="digiteUmUsuario">Digite um Nome de Usuario</string>
+    <string name="digiteUmEmail">Digite um Email</string>
+    <string name="digiteUmEmailValido">Digite um Email Valido</string>
+    <string name="senhasNaoBatem">As Senhas Não São Iguais</string>
+    <string name="falhaAoLogar">E-mail ou Senha Invalida</string>
+    <string name="adocao">Doar Gatos</string>
+    <string name="adotar">Adotar Gatos</string>
+    <string name="verperfil">Mew Perfil</string>
+    <string name="LembrarEmail">Lembrar E-mail</string>
+    <string name="editarPerfil">Editar Perfil</string>
+    <string name="title_activity_adotar_gato">Map</string>
+    <string name="ligar">Ligar</string>
+    <string name="caracteristicas">Caracteristicas do Gato:</string>
+    <string name="caracteristicasInput">Digite as Caracteristicas do Gato</string>
+</resources>
